@@ -1,0 +1,23 @@
+{
+  "name": "liz-terwilliger-for-congress-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BergerLand/liz-terwilliger-for-congress-2022.git"
+  },
+  "author": "Phillip R. Berger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BergerLand/liz-terwilliger-for-congress-2022/issues"
+  },
+  "homepage": "https://github.com/BergerLand/liz-terwilliger-for-congress-2022#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
