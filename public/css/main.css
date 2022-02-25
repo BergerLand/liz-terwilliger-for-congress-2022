@@ -125,6 +125,11 @@ body {
   }
 
   @media (max-width: 1024px) {
+    main {
+      margin: 150px 40px 40px 40px;
+      background: white;
+    }
+
     .reform, .congress {
       font-size: 3rem;
       color: white;
