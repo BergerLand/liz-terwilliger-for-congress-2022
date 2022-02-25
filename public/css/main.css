@@ -151,4 +151,14 @@ body {
       position: absolute;
       top: 10px;
     }
+
+    footer {
+      font-size: 10px;
+    }
+
+    @media (max-width: 768px) {
+      footer {
+        font-size: 5px;
+      }
+    }
   }
