@@ -66,6 +66,7 @@ body {
 
   .waves-container img {
     position: absolute;
+    width: 100%;
   }
   
   header {
@@ -115,13 +116,9 @@ body {
   }
   
   footer {
-    background: #ffc72c;
+    background: rgb(255, 199, 46);
     padding: 0.5rem;
     color: white;
-  }
-
-  .css-filter {
-    filter: drop-shadow(2px 0 0 antiquewhite) drop-shadow(-2px 0 0 antiquewhite) drop-shadow(0 2px 0 antiquewhite) drop-shadow(0 -2px 0 antiquewhite) drop-shadow(1px 0 0 red) drop-shadow(-1px 0 0 red) drop-shadow(0 -1px 0 red) drop-shadow(0 1px 0 red);
   }
 
   @media (max-width: 1024px) {
@@ -131,7 +128,7 @@ body {
     }
 
     .reform, .congress {
-      font-size: 3rem;
+      font-size: 5rem;
       color: white;
     }
 
@@ -148,6 +145,7 @@ body {
     }
 
     .waves-container img {
+      width: 100%;
       position: absolute;
       top: 10px;
     }
@@ -157,8 +155,14 @@ body {
     }
 
     @media (max-width: 768px) {
+      .reform, .congress {
+        font-size: 2rem;
+        color: white;
+      }
+
       footer {
         font-size: 5px;
       }
     }
+
   }
